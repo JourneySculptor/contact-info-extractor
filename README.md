@@ -40,7 +40,9 @@ This Python script extracts contact information such as **phone numbers** and **
    To enable API data submission, replace the placeholder `api_url` in the script with your actual endpoint.
 
    Example:
-   api_url = "https://your-api-endpoint.com/api"
+   api_url = "https://www.whitehouse.gov"
+
+**Note**: The URL above is provided as a sample and directs to the official White House website. Please replace it with your actual API endpoint URL when enabling the API functionality.
 
 
 ## Configuration
