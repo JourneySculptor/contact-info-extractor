@@ -6,46 +6,47 @@ This Python script extracts contact information such as **phone numbers** and **
 ## Features
 - **Extract Phone Numbers and Emails**: Scans input text for phone numbers and email addresses using regular expressions.
 - **Save Results**: Allows users to save the extracted contact information to a `.txt` file.
-- **API Integration**: Sends the extracted information to an external API endpoint for further processing (if configured).
-- **Clipboard Copying**: Copies the extracted data to the clipboard for easy access.
-- **Automated Extraction (Optional)**: Checks the clipboard periodically for new contact information and processes it automatically.
+- **API Integration**: Sends extracted information to an external API endpoint for further processing (if configured).
+- **Clipboard Copying**: Copies extracted data to the clipboard for easy access.
+- **Automated Extraction (Optional)**: Monitors the clipboard for new contact information and processes it automatically.
 
 ## Requirements
 - **Python 3.6+**
 - **Required Libraries**:
-  - `tkinter`: For creating the GUI (pre-installed with Python on most platforms).
-  - `re`: For regular expressions (standard library).
-  - `pyperclip`: To interact with the clipboard. Install with `pip install pyperclip`.
-  - `requests`: For sending data to an API endpoint. Install with `pip install requests`.
+  - `tkinter`: GUI creation (pre-installed with Python on most platforms).
+  - `re`: Regular expressions (standard library).
+  - `pyperclip`: Clipboard interactions. Install with `pip install pyperclip`.
+  - `requests`: Sending data to an API endpoint. Install with `pip install requests`.
 
 ## Installation
-1. Clone the repository:
-   git clone https://github.com/JourneySculptor/contact-info-extractor.git
+1. Clone the Repository and Navigate to the Project Directory:
+   git clone https://github.com/JourneySculptor/contact-info-extractor.git && cd contact-info-extractor
 
-2. Navigate to the project directory:
-   cd contact-info-extractor
-   
-3. Install the required packages:
-   pip install -r requirements.txt
+2. Install Required Libraries:
+   pip install pyperclip requests
 
 ## Usage
 1. Run the script:
    python contact_info_extractor.py
 
-2. Enter or paste text containing phone numbers or email addresses in the input box.
+2. Extract Contact Information:
+   Enter or paste text containing phone numbers or email addresses into the input box.
+   Click the "Extract Info" button to display the extracted contact information.
 
-3. Click Extract Info to see the extracted contact information.
+3. Save Results:
+   Select the "Save" option to store the extracted information in a `.txt file`, using the file dialog that appears.
 
-4. Save Results: Choose a file to save the extracted information by following the file dialog that appears.
+4. Send Data to API (Optional):
+   To enable API data submission, replace the placeholder `api_url` in the script with your actual endpoint.
 
-5. Send to API: The script sends the results to an external API if configured. You may need to replace https://example.com/api in the code with your actual endpoint.
+   Example:
+   api_url = "https://your-api-endpoint.com/api"
+
 
 ## Configuration
-**API Endpoint**: To use the API feature, update the api_url variable in contact_info_extractor.py with your endpoint URL.
-api_url = "https://your-api-endpoint.com/api"
+**API Endpoint**: To use the API feature, update the `api_url` variable in `contact_info_extractor.py` with your endpoint URL.
 
 ## Example
-Example of the input and output:
 
 **Input:**
   Contact: johndoe@example.com, Phone: 123-456-7890
