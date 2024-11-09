@@ -46,6 +46,7 @@ api_url = "https://your-api-endpoint.com/api"
 
 ## Example
 Example of the input and output:
+
 **Input:**
   Contact: johndoe@example.com, Phone: 123-456-7890
   
