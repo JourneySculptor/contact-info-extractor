@@ -20,7 +20,8 @@ This Python script extracts contact information such as **phone numbers** and **
 
 ## Installation
 1. Clone the Repository and Navigate to the Project Directory:
-   ggit clone https://github.com/JourneySculptor/contact-info-extractor.git && cd contact-info-extractor
+   git clone https://github.com/JourneySculptor/contact-info-extractor.git && cd contact-info-extractor
+
 
 2. Install Required Libraries:
    pip install pyperclip requests
