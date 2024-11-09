@@ -59,7 +59,7 @@ This Python script extracts contact information such as **phone numbers** and **
   Phone: 123-456-7890
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 JourneySculptor 
