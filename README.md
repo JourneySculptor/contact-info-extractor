@@ -3,6 +3,16 @@
 ## Overview
 This Python script extracts contact information such as **phone numbers** and **email addresses** from input text. It provides a user-friendly GUI built with Tkinter, allowing users to paste or type text and automatically extracts any phone numbers or email addresses found.
 
+## Learning in Progress
+This project is part of my ongoing Python learning process, particularly focused on regular expressions, GUI design with Tkinter, and API integration. I'm gradually refining the code to improve its functionality, efficiency, and security as I learn more.
+
+### Planned Improvements
+- **Enhanced Regex Matching**: Improve regular expressions to better capture a wider variety of contact information formats.
+- **Error Handling**: Add error handling for missing API endpoints and invalid clipboard data.
+- **User Feedback**: Improve the GUI to provide clear feedback messages for the user, especially for save and API submission actions.
+
+I welcome any suggestions or feedback as I continue to build my skills and improve this tool!
+
 ## Features
 - **Extract Phone Numbers and Emails**: Scans input text for phone numbers and email addresses using regular expressions.
 - **Save Results**: Allows users to save the extracted contact information to a `.txt` file.
